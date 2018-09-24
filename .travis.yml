@@ -43,4 +43,4 @@ install:
 script:
   - mvn -version
   - java -version
-  - mvn clean dependency:list test -U -Dsort -Dmaven.test.redirectTestOutputToFile=true -B -s settings.xml
+  - mvn clean test -U -Dsort -Dmaven.test.redirectTestOutputToFile=true -B -s settings.xml
